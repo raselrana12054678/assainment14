@@ -1,0 +1,111 @@
+.header-area {
+    padding: 10px 0;
+    background: teal;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner css  */
+.banner {
+    background-color: aqua;
+}
+.banner-items {
+    padding-top: 19%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+/* image items css  */
+.title-wrap h2 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.title-wrap p {
+    width: 34%;
+    margin: 0 auto;
+}
+.image-hero  img {
+    width: 100%;
+}
+.image-hero:last-child  img {
+    margin-top: 25px;
+}
+
+/* watch-items css  */
+.watch-items {
+    background-color: #dddd;
+}
+.box {
+    background-color: blue;
+    width: 80px ;
+    height: 80px;
+    margin: 0 auto;
+    transform: scale(1.1)
+}
+.box {
+
+}
+.box h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-area {
+    padding: 30px;
+    background-color: aqua;
+}
